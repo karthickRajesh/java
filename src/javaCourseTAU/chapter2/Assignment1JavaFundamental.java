@@ -1,4 +1,4 @@
-package javaCourseTAU;
+package javaCourseTAU.chapter2;
 
 import java.util.Scanner;
 
