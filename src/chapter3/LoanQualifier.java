@@ -19,6 +19,9 @@ public class LoanQualifier {
         System.out.println("Kindly enter your Years of Employment");
         double usersEmploymentYears = scanner.nextDouble();
         scanner.close();
+
+        System.out.println("Using Nested if");
+
         if (requiredSalary <= usersSalary){
             if (requiredEmploymentYears <= usersEmploymentYears){
                 System.out.println("Congratulations You are Qualified for Loan");
@@ -27,6 +30,15 @@ public class LoanQualifier {
             }
         }else {
             System.out.println("Sorry You salary must be atleast " + requiredSalary);
+
+        }
+
+        System.out.println("Using Logical and relation Opertaors");
+
+        if (requiredSalary <= usersSalary && requiredEmploymentYears <= usersEmploymentYears){
+            System.out.println("Congratulations You are Qualified for Loan");
+        }else {
+            System.out.println("Sorry You arenot Qualified for Loan");
 
         }
 
