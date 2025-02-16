@@ -16,7 +16,7 @@ public class SalaryCalculator {
         System.out.println("Enter the no of Sales:");
         Scanner scanner = new Scanner(System.in);
         int sales = scanner.nextInt();
-
+        scanner.close();
         if (sales > target){
             salary = salary +bonus;
         }
