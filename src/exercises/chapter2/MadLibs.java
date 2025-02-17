@@ -1,8 +1,8 @@
-package chapter2;
+package exercises.chapter2;
 
 import java.util.Scanner;
 
-public class AssignmentChapter2 {
+public class MadLibs {
 
     public static void main(String[] args) {
         //get Adjective from an User

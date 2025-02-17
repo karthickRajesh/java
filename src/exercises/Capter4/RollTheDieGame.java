@@ -1,8 +1,8 @@
-package chapter4;
+package exercises.Capter4;
 
 import java.util.Random;
 
-public class AssignmentChapter3RollTheDiegame {
+public class RollTheDieGame {
 
     public static void main(String[] args) {
 

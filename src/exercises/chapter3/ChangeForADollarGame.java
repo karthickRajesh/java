@@ -1,4 +1,4 @@
-package chapter3;
+package exercises.chapter3;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ user to enter the quantities for the 10,20,50 coins.
 do is count up the value of all of the change that they answered.
 declare winner if it matched 100
  */
-public class AssignmentChapter3 {
+public class ChangeForADollarGame {
 
     public static void main(String[] args) {
 
