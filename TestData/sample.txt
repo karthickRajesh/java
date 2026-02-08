@@ -1,0 +1,5 @@
+#Properties should be updated
+#Sun Feb 08 15:21:20 IST 2026
+Experience=8
+Position=QA
+name=Karthick Rajesh
